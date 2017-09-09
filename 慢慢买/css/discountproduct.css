@@ -1,0 +1,120 @@
+#header {
+  position: relative;
+  text-align: center;
+}
+#header > .logo {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  font-family: 'SimSun';
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+#header > span {
+  font-family: '黑体';
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+#header > .app {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+#detail {
+  padding: 10px;
+}
+#detail > h3 {
+  font-size: 20px;
+}
+#detail > h4 {
+  font-size: 16px;
+  color: #ff6c00;
+}
+#detail > div.tips > span {
+  color: #888;
+  font-size: 12px;
+}
+#detail > div.intro {
+  margin-top: 10px;
+}
+#detail > div.intro img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+#detail > div.buy {
+  margin: 20px auto;
+  text-align: center;
+}
+#detail > div.buy > a {
+  display: block;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  background-color: #ff841d;
+  color: #fff;
+  border-radius: 5px;
+}
+#detail > div.comment > .tit {
+  font-size: 14px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+#detail > div.comment > .reply > .form {
+  position: relative;
+}
+#detail > div.comment > .reply > .form textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border: 1px solid #ccc;
+}
+#detail > div.comment > .reply > .form > .ctrl {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+#detail > div.comment > .reply > .form > .ctrl > input {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  outline: none;
+  background-color: #ff841d;
+}
+#detail > div.comment > .list > ul > li.ui-border-b {
+  position: relative;
+  padding: 10px;
+  padding-left: 80px;
+  border-bottom: 1px solid #888;
+  min-height: 80px;
+}
+#detail > div.comment > .list > ul > li.ui-border-b > .userimg > img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+#detail > div.comment > .list > ul > li.ui-border-b > .con > .name > .username {
+  color: #5997c0;
+  float: left;
+}
+#detail > div.comment > .list > ul > li.ui-border-b > .con > .name > .time {
+  float: right;
+}
+#detail > div.comment > .list > ul > li.ui-border-b > .con > .content {
+  margin-top: 10px;
+}

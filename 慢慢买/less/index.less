@@ -1,0 +1,89 @@
+@import 'vars';
+@import 'mix';
+// 头部
+#header {
+  .header;
+}
+
+// 搜索栏
+#search {
+  .search;
+}
+
+// 底部
+#footer {
+  .footer;
+}
+
+// 菜单栏
+#menu {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  >.container {
+    >.row {
+      >div {
+        text-align: center;
+        >a {
+          display: block;
+          >img {
+            height: 50px;
+          }
+          >p {
+            margin: 5px;
+            font-size: 10px;
+          }
+        }
+      }
+      >div:nth-last-child(-n+4) {
+        display: none;
+      }
+    }
+  }
+}
+
+// 推荐栏
+#recommend {
+  margin-top: 10px;
+  >.recommend-title {
+    padding: 0 10px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    background-color: @base-color;
+    >a>img {
+      height: 20px;
+    }
+  }
+  >.recommend-list {
+    >.media {
+      margin-top: 0;
+      padding: 10px;
+      background-color: #fff;
+      border-bottom: 1px solid #ccc;
+      >.media-left>a>img {
+        height: 100px;
+      }
+      >.media-body {
+        >span {
+          color: #c0c0c0;
+        }
+      }
+    }
+  }
+  >.recommend-more {
+    background-color: #fff;
+    padding: 10px;
+    >a {
+      display: block;
+      width: 90%;
+      height: 30px;
+      line-height: 30px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      text-align: center;
+      margin: 0 auto;
+      background-color: #fff;
+    }
+  }
+}

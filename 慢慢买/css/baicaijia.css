@@ -1,0 +1,202 @@
+/*#brand #sales公用*/
+#header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff841d;
+  padding: 0 10px;
+  background-color: #fe4a65;
+  position: relative;
+  text-align: center;
+}
+#header > .logo {
+  display: block;
+}
+#header > .logo > img {
+  height: 25px;
+}
+#header > .app {
+  display: block;
+}
+#header > .app > img {
+  height: 34px;
+}
+#header > .logo {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  font-family: 'SimSun';
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+#header > span {
+  font-family: '黑体';
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+#header > .app {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+#footer > .container {
+  text-align: center;
+}
+#footer > .container > .row {
+  margin-top: 10px;
+}
+#footer > .container > .row > div {
+  width: 33.333333333%;
+  border: 1px solid #ccc;
+  height: 30px;
+  line-height: 30px;
+  z-index: 1;
+}
+#footer > .container > .row > div + div {
+  border-left: 0;
+}
+#footer > .container > .row > div > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#footer > .container > .row > div > a > img {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 3px;
+}
+#footer > .container > p {
+  margin-top: 10px;
+}
+#menu > .tab {
+  width: 100%;
+  overflow: hidden;
+}
+#menu > .tab > ul {
+  white-space: nowrap;
+  margin: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  word-spacing: -3px;
+}
+#menu > .tab > ul > li {
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+  word-spacing: 0;
+}
+#menu > .tab > ul > li a {
+  font-size: 16px;
+  padding: 0 10px;
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+#menu > .tab > ul > li.active > span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  height: 3px;
+}
+#menu > .content {
+  background-color: #fff;
+}
+#menu > .content > li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+#menu > .content > li > .media {
+  display: block;
+  width: 100%;
+}
+#menu > .content > li > .media > div.media-left > img {
+  width: 100px;
+  height: 100px;
+}
+#menu > .content > li > .media > div.media-body > h4 {
+  font-weight: 600;
+}
+#menu > .content > li > .media > div.media-body > p {
+  color: red;
+  font-size: 16px;
+  margin: 0;
+}
+#menu > .content > li > .media > div.media-body > p > i {
+  font-size: 12px;
+}
+#menu > .content > li > .media > div.media-body > p > em {
+  font-size: 10px;
+}
+#menu > .content > li > .media > div.media-body > p > del {
+  margin-left: 5px;
+  font-size: 12px;
+  color: #ccc;
+}
+#menu > .content > li > .media > div.media-body > div.bar > i {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 12px;
+  border-radius: 5px;
+  background-color: pink;
+  border: 1px solid red;
+}
+#menu > .content > li > .media > div.media-body > div.bar > i > em {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 10px;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+#menu > .content > li > .media > div.media-body > div.bar > i > span {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -10px;
+  font-size: 10px;
+  height: 10px;
+  line-height: 10px;
+  color: #fff;
+  font-weight: 600;
+}
+#menu > .content > li > .media > div.media-body > div.bar > b {
+  color: red;
+  margin-left: 5px;
+  font-size: 10px;
+  height: 10px;
+  line-height: 10px;
+  font-weight: 400;
+}
+#menu > .content > li > .media > div.media-body > a {
+  float: left;
+  color: red;
+  font-size: 10px;
+  border: 1px solid red;
+  padding: 2px;
+  border-radius: 5px;
+}
+#menu > .content > li > .media > div.media-body a:last-child {
+  float: right;
+  color: #fff;
+  font-size: 10px;
+  border: 1px solid red;
+  background-color: red;
+  padding: 2px;
+}
+#footer > .container .row .back a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#footer > .container .row .back a img {
+  width: 15px;
+  height: 15px;
+}

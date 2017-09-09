@@ -1,0 +1,77 @@
+@import 'vars';
+@import 'mix';
+#header {
+  .header;
+  .header-red;
+}
+
+// 底部
+#footer {
+  .footer;
+}
+
+
+#content {
+  background-color: #fff;
+  padding: 10px;
+  >div.tips {
+    text-align: center;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  >ul {
+    >li>a {
+      position: relative;
+      display: block;
+      padding-left: 120px;
+      min-height: 110px;
+      border-bottom: 1px solid #ccc;
+      >img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100px;
+        height: 100px;
+      }
+      >h4 {
+        font-size: 14px;
+      }
+      >span {
+        font-weight: 600;
+      }
+      >i {
+        margin-top: 15px;
+        display: block;
+        color: #EE7700;
+      }
+    }
+  }
+}
+
+.fullImg {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .8);
+  z-index: 999;
+  >img {
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 200px;
+  }
+  >span {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 200px;
+    line-height: 200px;
+    font-family: "宋体";
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+  }
+}

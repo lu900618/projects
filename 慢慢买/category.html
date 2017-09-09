@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>全部分类 - 慢慢买</title>
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/category.css">
+</head>
+
+<body>
+  <!-- 头部开始 -->
+  <section id="header">
+    <a href="#" class="fl logo">
+      <img src="./images/header_logo.png" alt="">
+    </a>
+    <a href="#" class="fr app">
+      <img src="./images/header_app.png" alt="">
+    </a>
+  </section>
+  <!-- 头部结束 -->
+
+  <!-- 搜索栏开始 -->
+  <section id="search">
+    <form action="">
+      <input type="search" name="" id="" placeholder="请输入要搜索的商品">
+      <input type="submit" value="搜索">
+    </form>
+  </section>
+  <!-- 搜索栏结束 -->
+
+  <!-- 分类开始 -->
+  <section id="container" class="container">
+    <ul class="row">
+    </ul>
+  </section>
+  <!-- 分类结束 -->
+
+  <!-- 底部开始 -->
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4">
+          <a href="#">登录</a>
+        </div>
+        <div class="col-xs-4">
+          <a href="#">注册</a>
+        </div>
+        <div class="col-xs-4">
+          <a href="#">
+              <img src="http://www.zuyushop.com/wap/images/top.jpg" alt="">
+              返回顶部
+            </a>
+        </div>
+      </div>
+
+      <p>
+        <a href="#" class="red">手机APP下载</a>
+        <a href="#">慢慢买手机版</a>
+        <a href="#"> -- 掌上比价平台</a>
+      </p>
+      <p>
+        <a href="#">m.manmanbuy.com</a>
+      </p>
+    </div>
+  </section>
+  <!-- 底部结束 -->
+  <script src="./lib/jquery/jquery.js"></script>
+  <script src="./lib/artTemplate/template.js"></script>
+  <script src="./js/config.js"></script>
+  <script src="./js/category.js"></script>
+
+  <script type="text/template" id="catsTpl">
+    {{ each result as item}}
+    <li>
+      <a class="cat" cid="{{item.titleId}}">
+        <h4>{{item.title}}</h4>
+        <ul class="list clearfix" cid="{{item.titleId}}" style="display:none"></ul>
+      </a>
+    </li>
+    {{/each}}
+  </script>
+
+  <script type="text/template" id="subCatTpl">
+    {{ each result as item}}
+    <li class="catSub" categoryId="{{ item.categoryId }}">
+      <a href="list.html?categoryid={{ item.categoryId }}">{{ item.category }}</a>
+    </li>
+    {{/each}}
+  </script>
+</body>
+
+</html>

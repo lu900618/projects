@@ -1,0 +1,94 @@
+#header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff841d;
+  padding: 0 10px;
+  background-color: #f4483e;
+  position: relative;
+  text-align: center;
+}
+#header > .logo {
+  display: block;
+}
+#header > .logo > img {
+  height: 25px;
+}
+#header > .app {
+  display: block;
+}
+#header > .app > img {
+  height: 34px;
+}
+#header > .logo {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  font-family: 'SimSun';
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+#header > span {
+  font-family: '黑体';
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+#header > .app {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+#footer > .container {
+  text-align: center;
+}
+#footer > .container > .row {
+  margin-top: 10px;
+}
+#footer > .container > .row > div {
+  width: 33.333333333%;
+  border: 1px solid #ccc;
+  height: 30px;
+  line-height: 30px;
+}
+#footer > .container > .row > div + div {
+  border-left: 0;
+}
+#footer > .container > .row > div > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#footer > .container > .row > div > a > img {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 3px;
+}
+#footer > .container > p {
+  margin-top: 10px;
+}
+#content > ul {
+  background-color: #fff;
+}
+#content > ul > li {
+  padding-top: 5px;
+  float: left;
+  width: 30%;
+  height: 130px;
+  text-align: center;
+  margin: 1.6666666%;
+  border: 1px solid #ccc;
+}
+#content > ul > li > a {
+  display: block;
+}
+#content > ul > li > a > img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+#content > ul > li > a > span {
+  color: #666;
+}

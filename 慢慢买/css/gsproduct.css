@@ -1,0 +1,110 @@
+#header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff841d;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+}
+#header > .logo {
+  display: block;
+}
+#header > .logo > img {
+  height: 25px;
+}
+#header > .app {
+  display: block;
+}
+#header > .app > img {
+  height: 34px;
+}
+#header > .logo {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  font-family: 'SimSun';
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+#header > span {
+  font-family: '黑体';
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+#header > .app {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+#content > div {
+  border-bottom: 1px solid #ccc;
+}
+#content > div > select {
+  float: left;
+  width: 32%;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  outline: none;
+}
+#content > div > img {
+  float: right;
+  width: 4%;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  background-color: #fff;
+}
+#content > ul {
+  display: block;
+  width: 98%;
+  margin: 0 auto;
+  padding: 1%;
+}
+#content > ul > li {
+  position: relative;
+  float: left;
+  width: 49%;
+  height: 300px;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+#content > ul > li:nth-child(2n) {
+  margin-left: 2%;
+}
+#content > ul > li > img {
+  display: block;
+  max-height: 200px;
+  margin: 0 auto;
+}
+#content > ul > li > h4 {
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+#content > ul > li > span {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+#content > ul > li > a {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  bottom: 15px;
+  right: 10px;
+  background-color: #ff8b00;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}

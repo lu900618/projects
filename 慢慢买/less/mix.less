@@ -1,0 +1,225 @@
+// 首页顶部 header
+.header() {
+  height: 50px;
+  line-height: 50px;
+  background-color: @base-color;
+  padding: 0 10px;
+  >.logo {
+    display: block;
+    >img {
+      height: 25px;
+    }
+  }
+  >.app {
+    display: block;
+    >img {
+      height: 34px;
+    }
+  }
+}
+
+// 首页 搜索栏
+.search() {
+  padding: 10px;
+  background-color: #fff;
+  >form {
+    position: relative;
+    padding-right: 70px;
+    >input {
+      outline: none;
+      border: none;
+      border-radius: 15px;
+      height: 30px;
+      line-height: 30px;
+    }
+    >input[type=search] {
+      width: 100%;
+      padding-left: 15px;
+      background-color: #f5f5f5;
+    }
+    >input[type=submit] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 64px;
+      background-color: @base-color;
+    }
+  }
+}
+
+// 首页底部
+.footer() {
+  >.container {
+    text-align: center;
+    >.row {
+      margin-top: 10px;
+      >div {
+        width: 33.333333333%;
+        border: 1px solid #ccc;
+        height: 30px;
+        line-height: 30px;
+        z-index: 1;
+        &+div {
+          border-left: 0;
+        }
+        >a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          >img {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-bottom: 3px;
+          }
+        }
+      }
+    }
+    >p {
+      margin-top: 10px;
+    }
+  }
+}
+
+// 三级联动菜单
+.menu(){
+  position: relative;
+  >a {
+    height: 40px;
+    line-height: 40px;
+  }
+  >span {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #666;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+}
+
+// 分页 button select button
+.page(){
+  position: relative;
+  padding: 10px 30%;
+  >button {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    top: 0;
+    margin-top: 10px;
+    position: absolute;
+    border: 1px solid #ccc;
+  }
+  >.prev {
+    left: 10%;
+  }
+  >select {
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    padding-left: 40%;
+  }
+  >.next {
+    right: 10%;
+  }
+}
+
+.header-lt(){
+  position: relative;
+  text-align: center;
+  >.logo {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    font-family: 'SimSun';
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+  }
+  >span {
+    font-family: '黑体';
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+  }
+  >.app {
+    position: absolute;
+    right: 10px;
+    top: 0;
+  }
+}
+
+.header-pink(){
+  background-color: #fe4a65;
+  position: relative;
+  text-align: center;
+  >.logo {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    font-family: 'SimSun';
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+  }
+  >span {
+    font-family: '黑体';
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+  }
+  >.app {
+    position: absolute;
+    right: 10px;
+    top: 0;
+  }
+}
+
+.header-red(){
+  background-color: #f4483e;
+  position: relative;
+  text-align: center;
+  >.logo {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    font-family: 'SimSun';
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+  }
+  >span {
+    font-family: '黑体';
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+  }
+  >.app {
+    position: absolute;
+    right: 10px;
+    top: 0;
+  }
+}
+
+/*#brand #sales公用*/
+
+.title() {
+  background-color: #fff;
+  padding: 10px;
+  >span {
+    display: block;
+    padding-left: 10px;
+    color: #874604;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+  }
+}

@@ -1,0 +1,80 @@
+@import 'vars';
+@import 'mix';
+#header {
+  .header;
+  .header-lt;
+}
+
+#content {
+  >div {
+    border-bottom: 1px solid #ccc;
+    >select {
+      float: left;
+      width: 32%;
+      height: 40px;
+      line-height: 40px;
+      border: none;
+      outline: none;
+    }
+    >img {
+      float: right;
+      width: 4%;
+      height: 40px;
+      line-height: 40px;
+      display: block;
+      background-color: #fff;
+    }
+  }
+  >ul {
+    display: block;
+    width: 98%;
+    margin: 0 auto;
+    padding: 1%;
+    >li {
+      position: relative;
+      float: left;
+      width: 49%;
+      height: 300px;
+      background-color: #fff;
+      box-sizing: border-box;
+      margin-top: 10px;
+      padding-top: 10px;
+      &:nth-child(2n) {
+        margin-left: 2%;
+      }
+      >img {
+        display: block; // width: 200px;
+        max-height: 200px;
+        margin: 0 auto;
+      }
+      >h4 {
+        position: absolute;
+        bottom: 50px;
+        left: 10px;
+        overflow: hidden; //超出的内容显示冒号
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+      }
+      >span {
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+      }
+      >a {
+        // display: block;
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        line-height: 30px;
+        bottom: 15px;
+        right: 10px;
+        background-color: #ff8b00;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+      }
+    }
+  }
+}

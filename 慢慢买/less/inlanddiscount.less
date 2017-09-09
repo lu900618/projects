@@ -1,0 +1,62 @@
+@import 'vars';
+@import 'mix';
+// 头部
+#header {
+  .header;
+  .header-lt;
+}
+
+// 搜索栏
+#search {
+  .search;
+}
+
+// 底部
+#footer {
+  .footer;
+}
+
+#discount-list {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  >ul>li {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 260px;
+    >a {
+      display: block;
+      background-color: #fff; // height: 250px;
+      >img {
+        display: block;
+        width: 75%;
+        height: 75%;
+        margin: 0 auto;
+      }
+      >h4 {
+        font-weight: 600;
+        overflow: hidden; //超出的内容显示冒号
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+      >p {
+        overflow: hidden; //超出的内容显示冒号
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        color: #ff841d;
+      }
+      >span {
+        color: #aaa;
+      }
+    }
+    &:nth-child(2n) {
+      border-left: 1px solid #ccc;
+    }
+  }
+}
+

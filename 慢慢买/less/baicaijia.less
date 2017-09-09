@@ -1,0 +1,153 @@
+
+@import 'vars';
+@import 'mix';
+// 头部
+#header {
+  .header;
+  .header-pink;
+}
+
+// 底部
+#footer {
+  .footer;
+}
+
+#menu {
+  >.tab {
+    width: 100%;
+    overflow: hidden;
+    >ul {
+      white-space: nowrap; // width: 800px;
+      margin: 0;
+      background-color: #fff;
+      border-bottom: 1px solid #ccc;
+      word-spacing: -3px;
+      >li {
+        display: inline-block;
+        white-space: nowrap;
+        position: relative;
+        word-spacing: 0;
+        a {
+          font-size: 16px;
+          padding: 0 10px;
+          display: block;
+          width: 100%;
+          height: 40px;
+          line-height: 40px;
+        }
+        &.active {
+          >span {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: red;
+            width: 100%;
+            height: 3px;
+          }
+        }
+      }
+    }
+  }
+  >.content {
+    background-color: #fff;
+    >li {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+      >.media {
+        display: block;
+        width: 100%;
+        >div.media-left>img {
+          width: 100px;
+          height: 100px;
+        }
+        >div.media-body {
+          >h4 {
+            font-weight: 600;
+          }
+          >p {
+            color: red;
+            font-size: 16px;
+            margin: 0;
+            >i {
+              font-size: 12px;
+            }
+            >em {
+              font-size: 10px;
+            }
+            >del {
+              margin-left: 5px;
+              font-size: 12px;
+              color: #ccc;
+            }
+          }
+          >div.bar {
+            >i {
+              position: relative;
+              display: inline-block;
+              width: 100px;
+              height: 12px;
+              border-radius: 5px;
+              background-color: pink;
+              border: 1px solid red;
+              >em {
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 10px;
+                background-color: red;
+                border: 1px solid red;
+                border-radius: 5px;
+              }
+              >span {
+                position: absolute;
+                left: 50%;
+                top: 0;
+                margin-left: -10px;
+                font-size: 10px;
+                height: 10px;
+                line-height: 10px;
+                color: #fff;
+                font-weight: 600;
+              }
+            }
+            >b {
+              color: red;
+              margin-left: 5px;
+              font-size: 10px;
+              height: 10px;
+              line-height: 10px;
+              font-weight: 400;
+            }
+          }
+          >a {
+            float: left;
+            color: red;
+            font-size: 10px;
+            border: 1px solid red;
+            padding: 2px;
+            border-radius: 5px;
+          }
+          a:last-child {
+            float: right;
+            color: #fff;
+            font-size: 10px;
+            border: 1px solid red;
+            background-color: red;
+            padding: 2px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#footer>.container .row .back a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  img {
+    width: 15px;
+    height: 15px;
+  }
+}

@@ -1,0 +1,132 @@
+/*#brand #sales公用*/
+#header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff841d;
+  padding: 0 10px;
+  background-color: #f4483e;
+  position: relative;
+  text-align: center;
+}
+#header > .logo {
+  display: block;
+}
+#header > .logo > img {
+  height: 25px;
+}
+#header > .app {
+  display: block;
+}
+#header > .app > img {
+  height: 34px;
+}
+#header > .logo {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  font-family: 'SimSun';
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+#header > span {
+  font-family: '黑体';
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+#header > .app {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+#footer > .container {
+  text-align: center;
+}
+#footer > .container > .row {
+  margin-top: 10px;
+}
+#footer > .container > .row > div {
+  width: 33.333333333%;
+  border: 1px solid #ccc;
+  height: 30px;
+  line-height: 30px;
+}
+#footer > .container > .row > div + div {
+  border-left: 0;
+}
+#footer > .container > .row > div > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#footer > .container > .row > div > a > img {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 3px;
+}
+#footer > .container > p {
+  margin-top: 10px;
+}
+#content {
+  background-color: #fff;
+  padding: 10px;
+}
+#content > div.tips {
+  text-align: center;
+  color: #999;
+  margin-bottom: 10px;
+}
+#content > ul > li > a {
+  position: relative;
+  display: block;
+  padding-left: 120px;
+  min-height: 110px;
+  border-bottom: 1px solid #ccc;
+}
+#content > ul > li > a > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100px;
+}
+#content > ul > li > a > h4 {
+  font-size: 14px;
+}
+#content > ul > li > a > span {
+  font-weight: 600;
+}
+#content > ul > li > a > i {
+  margin-top: 15px;
+  display: block;
+  color: #EE7700;
+}
+.fullImg {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+}
+.fullImg > img {
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+  height: 200px;
+}
+.fullImg > span {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 200px;
+  line-height: 200px;
+  font-family: "宋体";
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}

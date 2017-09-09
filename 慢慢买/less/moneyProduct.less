@@ -1,0 +1,128 @@
+@import 'vars';
+@import 'mix';
+// 头部
+#header {
+  .header;
+  .header-lt;
+}
+
+// 搜索栏
+#search {
+  .search;
+}
+
+// 底部
+#footer {
+  .footer;
+}
+
+#menu {
+  .menu;
+}
+
+#detail {
+  padding: 10px;
+  >h3 {
+    font-size: 20px;
+  }
+  >h4 {
+    font-size: 16px;
+    color: #ff6c00;
+  }
+  >div.tips>span {
+    color: #888;
+    font-size: 12px;
+  }
+  >div.intro {
+    margin-top: 10px;
+    img {
+      float: right;
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+    }
+  }
+  >div.buy {
+    margin: 20px auto;
+    text-align: center;
+    >a {
+      display: block;
+      width: 100%;
+      height: 35px;
+      line-height: 35px;
+      background-color: #ff841d;
+      color: #fff;
+      border-radius: 5px;
+    }
+  }
+  >div.comment>.cu-content-pl {
+    >.tit {
+      font-size: 14px;
+      margin: 10px 0;
+      font-weight: 600;
+    }
+    >.reply {
+      >.form {
+        position: relative;
+        textarea {
+          width: 100%;
+          height: 100px;
+          resize: none;
+          border: 1px solid #ccc;
+        }
+        >.ctrl {
+          position: absolute;
+          bottom: 5px;
+          left: 0;
+          width: 100%;
+          height: 32px;
+          line-height: 32px;
+          background-color: #eee;
+          border: 1px solid #ccc;
+          >input {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            border: none;
+            outline: none;
+            background-color: #ff841d;
+          }
+        }
+      }
+    }
+    >.list {
+      >ul>li.ui-border-b {
+        position: relative;
+        padding: 10px;
+        padding-left: 80px;
+        border-bottom: 1px solid #888;
+        min-height: 80px;
+        >.userimg>img {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+        }
+        >.con {
+          >.name {
+            >.username {
+              color: #5997c0;
+              float: left;
+            }
+            >.time {
+              float: right;
+            }
+          }
+          >.content {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}

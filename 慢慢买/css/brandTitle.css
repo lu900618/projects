@@ -1,0 +1,77 @@
+#header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff841d;
+  padding: 0 10px;
+}
+#header > .logo {
+  display: block;
+}
+#header > .logo > img {
+  height: 25px;
+}
+#header > .app {
+  display: block;
+}
+#header > .app > img {
+  height: 34px;
+}
+#search {
+  padding: 10px;
+  background-color: #fff;
+}
+#search > form {
+  position: relative;
+  padding-right: 70px;
+}
+#search > form > input {
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  height: 30px;
+  line-height: 30px;
+}
+#search > form > input[type=search] {
+  width: 100%;
+  padding-left: 15px;
+  background-color: #f5f5f5;
+}
+#search > form > input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 64px;
+  background-color: #ff841d;
+}
+#nav {
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+}
+#brand > div.title {
+  background-color: #fff;
+  padding: 10px;
+}
+#brand > div.title > span {
+  display: block;
+  padding-left: 10px;
+  color: #874604;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
+#brand > .list > li {
+  border-top: 1px solid #ccc;
+}
+#brand > .list > li > a {
+  padding-left: 10px;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 600;
+  background: url(http://www.zuyushop.com/wap/images/arrow1.gif) right center no-repeat;
+}

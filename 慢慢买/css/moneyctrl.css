@@ -1,0 +1,162 @@
+#header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff841d;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+}
+#header > .logo {
+  display: block;
+}
+#header > .logo > img {
+  height: 25px;
+}
+#header > .app {
+  display: block;
+}
+#header > .app > img {
+  height: 34px;
+}
+#header > .logo {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  font-family: 'SimSun';
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+#header > span {
+  font-family: '黑体';
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+#header > .app {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+#search {
+  padding: 10px;
+  background-color: #fff;
+}
+#search > form {
+  position: relative;
+  padding-right: 70px;
+}
+#search > form > input {
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  height: 30px;
+  line-height: 30px;
+}
+#search > form > input[type=search] {
+  width: 100%;
+  padding-left: 15px;
+  background-color: #f5f5f5;
+}
+#search > form > input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 64px;
+  background-color: #ff841d;
+}
+#footer > .container {
+  text-align: center;
+}
+#footer > .container > .row {
+  margin-top: 10px;
+}
+#footer > .container > .row > div {
+  width: 33.333333333%;
+  border: 1px solid #ccc;
+  height: 30px;
+  line-height: 30px;
+}
+#footer > .container > .row > div + div {
+  border-left: 0;
+}
+#footer > .container > .row > div > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#footer > .container > .row > div > a > img {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 3px;
+}
+#footer > .container > p {
+  margin-top: 10px;
+}
+#menu {
+  position: relative;
+}
+#menu > a {
+  height: 40px;
+  line-height: 40px;
+}
+#menu > span {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #666;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+#list > ul > li {
+  border-bottom: 1px solid #000;
+  padding: 10px;
+  background-color: #fff;
+}
+#list > ul > li > .item {
+  display: block;
+}
+#list > ul > li > .item > .media-left > img {
+  height: 100px;
+}
+#list > ul > li > .item > .media-body > h4 {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+#list > ul > li > .item > .media-body > h4 > span {
+  color: #ff6c00;
+}
+#list > ul > li > .item > .media-body > span {
+  color: #888;
+}
+#list .page {
+  position: relative;
+  padding: 10px 30%;
+}
+#list .page > button {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  top: 0;
+  margin-top: 10px;
+  position: absolute;
+  border: 1px solid #ccc;
+}
+#list .page > .prev {
+  left: 10%;
+}
+#list .page > select {
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  padding-left: 40%;
+}
+#list .page > .next {
+  right: 10%;
+}

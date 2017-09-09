@@ -1,0 +1,50 @@
+@import 'vars';
+@import 'mix';
+// 头部
+#header {
+  .header;
+  .header-lt;
+}
+
+// 搜索栏
+#search {
+  .search;
+}
+
+// 底部
+#footer {
+  .footer;
+}
+
+#menu {
+  .menu;
+}
+
+#list {
+  >ul>li {
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    background-color: #fff;
+    >.item {
+      display: block;
+      >.media-left>img {
+        height: 100px
+      }
+      >.media-body {
+        >h4 {
+          font-size: 15px;
+          padding-bottom: 20px;
+          >span {
+            color: #ff6c00;
+          }
+        }
+        >span {
+          color: #888;
+        }
+      }
+    }
+  }
+  .page {
+    .page;
+  }
+}

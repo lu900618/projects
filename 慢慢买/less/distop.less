@@ -1,0 +1,139 @@
+@import 'vars';
+@import 'mix';
+#header {
+  .header;
+}
+
+#search {
+  .search;
+}
+
+#nav {
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+}
+
+#brand {
+  >div {
+    .title;
+  }
+  >.list {
+    >li {
+      border-top: 1px solid #ccc;
+      >a {
+        display: block;
+        position: relative;
+        padding-left: 40px;
+        background: url(http://www.zuyushop.com/wap/images/arrow1.gif) right center no-repeat;
+        >i {
+          text-align: center;
+          position: absolute;
+          left: 10px;
+          top: 0;
+          width: 20px;
+          height: 20px;
+          line-height: 20px;
+          background-color: #ccc;
+          color: #fff;
+        }
+        >h4 {
+          font-size: 16px;
+        }
+        >span {
+          font-size: 10px;
+          color: #aaa;
+        }
+      }
+      &:nth-child(1)>a>i {
+        background-color: red;
+      }
+      &:nth-child(2)>a>i {
+        background-color: #ff9314;
+      }
+      &:nth-child(3)>a>i {
+        background-color: #8adf5b;
+      }
+    }
+  }
+}
+
+#sales {
+  >div {
+    .title;
+  }
+  >.list {
+    >li {
+      border-bottom: 1px solid #ccc;
+      >a {
+        position: relative;
+        display: block;
+        padding: 0 10px 0 120px;
+        min-height: 120px;
+        >img {
+          position: absolute;
+          left: 10px;
+          top: 0;
+        }
+        >h4 {}
+        >p {
+          color: red;
+          font-size: 16px;
+          font-weight: 600;
+        }
+        >i {
+          font-size: 10px;
+          color: #ddd;
+        }
+      }
+    }
+  }
+}
+
+#comment {
+  >div.title {
+    .title;
+  }
+  >ul.list>li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    >a {
+      position: relative;
+      display: block;
+      min-height: 100px;
+      padding-left: 120px;
+      >img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100px;
+        height: 100px;
+      }
+      >h4 {
+        color:#aaa;
+      }
+      
+    }
+    >div {
+      position: relative;
+      padding: 10px;
+      background: #ddd;
+      &:after {
+        content: '';
+        position: absolute;
+        left: 20px;
+        top: -5px;
+        display: block;
+        width: 10px;
+        height: 10px;
+        transform: rotate(45deg);
+        background: #ddd;
+      }
+      >div>span{
+        color:#aaa;
+      }
+    }
+  }
+}

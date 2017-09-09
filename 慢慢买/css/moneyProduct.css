@@ -1,0 +1,211 @@
+#header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff841d;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+}
+#header > .logo {
+  display: block;
+}
+#header > .logo > img {
+  height: 25px;
+}
+#header > .app {
+  display: block;
+}
+#header > .app > img {
+  height: 34px;
+}
+#header > .logo {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  font-family: 'SimSun';
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+#header > span {
+  font-family: '黑体';
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+#header > .app {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+#search {
+  padding: 10px;
+  background-color: #fff;
+}
+#search > form {
+  position: relative;
+  padding-right: 70px;
+}
+#search > form > input {
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  height: 30px;
+  line-height: 30px;
+}
+#search > form > input[type=search] {
+  width: 100%;
+  padding-left: 15px;
+  background-color: #f5f5f5;
+}
+#search > form > input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 64px;
+  background-color: #ff841d;
+}
+#footer > .container {
+  text-align: center;
+}
+#footer > .container > .row {
+  margin-top: 10px;
+}
+#footer > .container > .row > div {
+  width: 33.333333333%;
+  border: 1px solid #ccc;
+  height: 30px;
+  line-height: 30px;
+}
+#footer > .container > .row > div + div {
+  border-left: 0;
+}
+#footer > .container > .row > div > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#footer > .container > .row > div > a > img {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 3px;
+}
+#footer > .container > p {
+  margin-top: 10px;
+}
+#menu {
+  position: relative;
+}
+#menu > a {
+  height: 40px;
+  line-height: 40px;
+}
+#menu > span {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #666;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+#detail {
+  padding: 10px;
+}
+#detail > h3 {
+  font-size: 20px;
+}
+#detail > h4 {
+  font-size: 16px;
+  color: #ff6c00;
+}
+#detail > div.tips > span {
+  color: #888;
+  font-size: 12px;
+}
+#detail > div.intro {
+  margin-top: 10px;
+}
+#detail > div.intro img {
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+#detail > div.buy {
+  margin: 20px auto;
+  text-align: center;
+}
+#detail > div.buy > a {
+  display: block;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  background-color: #ff841d;
+  color: #fff;
+  border-radius: 5px;
+}
+#detail > div.comment > .cu-content-pl > .tit {
+  font-size: 14px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+#detail > div.comment > .cu-content-pl > .reply > .form {
+  position: relative;
+}
+#detail > div.comment > .cu-content-pl > .reply > .form textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border: 1px solid #ccc;
+}
+#detail > div.comment > .cu-content-pl > .reply > .form > .ctrl {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+#detail > div.comment > .cu-content-pl > .reply > .form > .ctrl > input {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  outline: none;
+  background-color: #ff841d;
+}
+#detail > div.comment > .cu-content-pl > .list > ul > li.ui-border-b {
+  position: relative;
+  padding: 10px;
+  padding-left: 80px;
+  border-bottom: 1px solid #888;
+  min-height: 80px;
+}
+#detail > div.comment > .cu-content-pl > .list > ul > li.ui-border-b > .userimg > img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+#detail > div.comment > .cu-content-pl > .list > ul > li.ui-border-b > .con > .name > .username {
+  color: #5997c0;
+  float: left;
+}
+#detail > div.comment > .cu-content-pl > .list > ul > li.ui-border-b > .con > .name > .time {
+  float: right;
+}
+#detail > div.comment > .cu-content-pl > .list > ul > li.ui-border-b > .con > .content {
+  margin-top: 10px;
+}
