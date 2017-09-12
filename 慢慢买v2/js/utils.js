@@ -97,3 +97,59 @@ Page.prototype.getCategoryById = function (cid, callback) {
     }
   })
 }
+
+
+/**
+ * 根据分类id获取该分类的商品列表
+ * 
+ * @param {Number} cid 
+ * @param {Function} callback 
+ * @param {Number} 默认值 1
+ */
+Page.prototype.getProductList = function (cid, callback, pid = 1) {
+  $.ajax({
+    data: {
+      categoryid: cid,
+      pid: pid
+    },
+    url: 'http://182.254.146.100:3000/api/getproductlist',
+    success: function (data) {
+      callback(data)
+    }
+  })
+}
+/**
+ * 根据商品id获取商品的详细信息
+ * 
+ * @param {Number} pid productId
+ * @param {Function} callback 
+ */
+Page.prototype.getProduct = function (pid, callback) {
+  $.ajax({
+    data: {
+      productid: pid
+    },
+    url: 'http://182.254.146.100:3000/api/getproduct',
+    success: function (data) {
+      callback(data)
+    }
+  })
+}
+
+/**
+ * 根据商品id获取该商品的评论信息
+ * 
+ * @param {Number} pid productId
+ * @param {Function} callback 
+ */
+Page.prototype.getProductCom = function (pid, callback) {
+  $.ajax({
+    data: {
+      productid: pid
+    },
+    url: 'http://182.254.146.100:3000/api/getproductcom',
+    success: function (data) {
+      callback(data)
+    }
+  })
+}

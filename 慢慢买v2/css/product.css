@@ -1,0 +1,259 @@
+.search {
+  position: relative;
+  padding: 0 80px 0 10px;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+.search > input {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.search > input:first-child {
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.search > input:last-child {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 0 15px;
+  background-color: #ff841d;
+  color: #fff;
+}
+.footer {
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.footer > div > a {
+  float: left;
+  width: 30%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+.footer > div > a:nth-child(3) {
+  border-right: none;
+  width: 40%;
+}
+.footer > div > a > img {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer > p {
+  padding-top: 10px;
+}
+#header {
+  position: relative;
+  height: 50px;
+  background-color: #ff841d;
+}
+#header > a:nth-child(1) {
+  position: absolute;
+  left: 10px;
+  top: 12.5px;
+}
+#header > a:nth-child(1) img {
+  height: 25px;
+}
+#header > a:last-child {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+#header > a:last-child img {
+  height: 34px;
+}
+#search-bar {
+  position: relative;
+  padding: 0 80px 0 10px;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+#search-bar > input {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+#search-bar > input:first-child {
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+#search-bar > input:last-child {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 0 15px;
+  background-color: #ff841d;
+  color: #fff;
+}
+#footer {
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#footer > div > a {
+  float: left;
+  width: 30%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+#footer > div > a:nth-child(3) {
+  border-right: none;
+  width: 40%;
+}
+#footer > div > a > img {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#footer > p {
+  padding-top: 10px;
+}
+.back {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+}
+.back a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.back a > img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+#menu {
+  background-color: #f2f2f2;
+  padding-left: 10px;
+  word-spacing: 2px;
+  height: 50px;
+  line-height: 50px;
+}
+#menu > a {
+  display: inline-block;
+  margin-right: 5px;
+}
+#content {
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+}
+#content > a {
+  display: block;
+}
+#content > a.favor {
+  width: 40px;
+  height: 40px;
+}
+#content > a.favor > img {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+}
+#content > a.product-img > img {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 160px;
+}
+#content > h4 {
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+#money {
+  margin-top: 20px;
+  margin-right: -2px;
+  word-wrap: -3px;
+  text-align: center;
+}
+#money > a {
+  float: left;
+  width: 33.3333333333%;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  background-color: #FFC320;
+}
+#money > a:nth-child(2) {
+  border: 1px solid #666;
+}
+#money > a.active {
+  background-color: #ff841d;
+}
+#money > .table > table > tbody {
+  height: 40px;
+  line-height: 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+#money > span {
+  display: block;
+  margin: 5px auto;
+  width: 95%;
+  font-size: 10px;
+  color: #666;
+  text-align: left;
+}
+#comment > ul {
+  background-color: #fff;
+}
+#comment > ul > li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+#comment > ul > li > p {
+  font-size: 10px;
+  color: #666;
+}
+#comment > ul > li > p.from {
+  text-align: right;
+}
+#comment > ul > li > div.com {
+  font-size: 14px;
+}
+#comment > div {
+  padding: 15px;
+}
+#comment > div > a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #ddd;
+  color: #666;
+}

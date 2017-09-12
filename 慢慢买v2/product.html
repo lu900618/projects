@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>比价搜索 - 慢慢买</title>
   <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/categorylist.css">
+  <link rel="stylesheet" href="./css/product.css">
 </head>
 
 <body>
@@ -35,12 +35,33 @@
   </div>
   <!-- 三级联动结束 -->
   <!-- 详细列表开始 -->
-  <div id="categorylist">
+  <div id="content">
+
+  </div>
+  <!-- 详细列表结束 -->
+
+  <!-- 比价开始 -->
+  <div id="money">
+    <a href="javascript:void(0);" class="active">比价购买</a>
+    <a href="javascript:void(0);">产品参数</a>
+    <a href="javascript:void(0);">产品评价</a>
+    <div class="table"></div>
+    <span>
+      * 实际价格以各网站列出的实时售价为准，我们提供的价格可能有数小时至数日的延迟。
+    </span>
+  </div>
+  <!-- 比价结束 -->
+
+  <!-- 评价开始 -->
+  <div id="comment">
     <ul>
 
     </ul>
+    <div>
+      <a href="javascript:void(0);">查看更多评价</a>
+    </div>
   </div>
-  <!-- 详细列表结束 -->
+  <!-- 评价结束 -->
 
   <!-- 底部开始 -->
   <footer id="footer">
@@ -70,30 +91,42 @@
   <script src="./lib/zepto/zepto.min.js"></script>
   <script src="./lib/artTemplate/template.js"></script>
   <script src="./js/utils.js"></script>
-  <script src="./js/categorylist.js"></script>
+  <script src="./js/product.js"></script>
 
-  <script type="text/template" id="productlistTpl">
+  <script type="text/template" id="productTpl">
     {{ each result as item}}
-    <li>
-      <a href="product.html?productid={{item.productId}}">
-        {{ #item.productImg }}
-        <h4>{{item.productName}}</h4>
-        <p class="red">{{item.productPrice}}</p>
-        <p>
-          <span class="fl">{{item.productQuote}}</span>
-          <span class="fr">{{item.productCom}}</span>
-        </p>
+    <a href="javascript:void(0);" class="favor">
+        <img src="http://www.zuyushop.com/wap/images/sc.jpg">
       </a>
-    </li>
+    <a href="javascript:void(0);" class="product-img">
+        {{#item.productImg}}
+      </a>
+    <h4>{{item.productName}}</h4>
     {{ /each }}
   </script>
 
   <script type="text/template" id="menuTpl">
     {{ each result as item}}
     <a href="/">首页</a>&gt;
-    <a href="/category.html">全部分类</a>&gt; 
-    <a href="/product.html?categoryid={{item.categoryId}}&titleid={{item.titleId}}">{{item.category}}</a> 
-    {{ /each }}
+    <a href="/category.html">全部分类</a>&gt;
+    <a href="/product.html?categoryid={{item.categoryId}}&titleid={{item.titleId}}">{{item.category}}</a> {{ /each }}
+  </script>
+
+  <script type="text/template" id="tableTpl">
+    {{ each result as item}} {{#item.bjShop}} {{ /each }}
+  </script>
+
+  <script type="text/html" id="comTpl">
+    {{each result as item}}
+    <li comid="{{item.comId}}" catid="{{item.categoryId}}" productid="{{item.productId}}">
+      <p class="clearfix">
+        <span class="fl">{{item.comName}}</span>
+        <span class="fr">{{item.comTime}}</span>
+      </p>
+      <p class="from">{{item.comFrom}}</p>
+      <div class="com">{{item.comContent}}</div>
+    </li>
+    {{/each}}
   </script>
 </body>
 

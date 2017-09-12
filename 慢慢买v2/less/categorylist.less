@@ -1,0 +1,69 @@
+@import 'vars';
+@import 'mix';
+#header {
+  .header;
+}
+
+#search-bar {
+  .search;
+}
+
+// 底部开始
+#footer {
+  .footer;
+}
+
+.back {
+  .toTop;
+}
+
+// 底部结束
+// 三级菜单开始
+#menu {
+  .menuThree;
+}
+
+// 三级菜单结束
+// 列表开始
+#categorylist {
+  background-color: #fff;
+  >ul {
+    >li {
+      border-bottom: 1px solid #ccc;
+      >a {
+        position: relative;
+        display: block;
+        min-height: 110px;
+        padding: 10px;
+        padding-left: 120px;
+        >img {
+          position: absolute;
+          left: 10px;
+          top: 10px;
+          display: block;
+          width: 100px;
+          height: 100px;
+        }
+        >h4 {
+          font-size: 16px;
+          font-weight: 400;
+          /* 显示两行 */
+          overflow: hidden; //超出的内容显示冒号
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+        }
+        >p {
+          margin: 5px 0;
+          >span {
+            color: #666;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 列表结束

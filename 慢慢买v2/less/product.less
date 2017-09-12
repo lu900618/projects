@@ -1,0 +1,139 @@
+@import 'vars';
+@import 'mix';
+#header {
+  .header;
+}
+
+#search-bar {
+  .search;
+}
+
+// 底部开始
+#footer {
+  .footer;
+}
+
+.back {
+  .toTop;
+}
+
+// 底部结束
+// 三级菜单开始
+#menu {
+  .menuThree;
+}
+
+// 三级菜单结束
+// 商品详情开始
+#content {
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  >a {
+    display: block;
+    &.favor {
+      width: 40px;
+      height: 40px;
+      >img {
+        position: absolute;
+        right: 40px;
+        top: 20px;
+        width: 40px;
+        height: 40px;
+      }
+    }
+    &.product-img {
+      >img {
+        display: block;
+        margin: 0 auto;
+        width: 160px;
+        height: 160px;
+      }
+    }
+  }
+  >h4 {
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+}
+
+// 商品详情结束
+// 比价开始
+#money {
+  margin-top: 20px;
+  margin-right: -2px;
+  word-wrap: -3px;
+  text-align: center;
+  >a {
+    float: left;
+    width: 33.3333333333%;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    background-color: #FFC320;
+    &:nth-child(2) {
+      border: 1px solid #666;
+    }
+    &.active {
+      background-color: @base-color;
+    }
+  }
+  >.table>table>tbody {
+    // >tr {
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff; // >td {
+    border-bottom: 1px solid #ccc; // }
+    // }
+  }
+  >span {
+    display: block;
+    margin: 5px auto;
+    width: 95%;
+    font-size: 10px;
+    color: #666;
+    text-align: left;
+  }
+}
+
+// 比价结束
+// 评论开始
+#comment {
+  // padding: 10px;
+  >ul {
+    background-color: #fff;
+    >li {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+      >p {
+        font-size: 10px;
+        color: #666;
+        &.from {
+          text-align: right;
+        }
+      }
+      >div.com {
+        font-size: 14px;
+      }
+    }
+  }
+  >div {
+    padding: 15px;
+    >a {
+      display: block;
+      height: 30px;
+      line-height: 30px;
+      width: 100%;
+      font-size: 14px;
+      text-align: center;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      background-color: #ddd;
+      color: #666;
+    }
+  }
+}
+
+// 评论结束
