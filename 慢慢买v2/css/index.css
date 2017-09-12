@@ -1,0 +1,231 @@
+.search {
+  position: relative;
+  padding: 0 80px 0 10px;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+.search > input {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.search > input:first-child {
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.search > input:last-child {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 0 15px;
+  background-color: #ff841d;
+  color: #fff;
+}
+.footer {
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.footer > div > a {
+  float: left;
+  width: 30%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+.footer > div > a:nth-child(3) {
+  border-right: none;
+  width: 40%;
+}
+.footer > div > a > img {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer > p {
+  padding-top: 10px;
+}
+#header {
+  position: relative;
+  height: 50px;
+  background-color: #ff841d;
+}
+#header > a:nth-child(1) {
+  position: absolute;
+  left: 10px;
+  top: 12.5px;
+}
+#header > a:nth-child(1) img {
+  height: 25px;
+}
+#header > a:last-child {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+#header > a:last-child img {
+  height: 34px;
+}
+#search-bar {
+  position: relative;
+  padding: 0 80px 0 10px;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+#search-bar > input {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+#search-bar > input:first-child {
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+#search-bar > input:last-child {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 0 15px;
+  background-color: #ff841d;
+  color: #fff;
+}
+#menu > ul {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+}
+#menu > ul > li {
+  float: left;
+  width: 25%;
+}
+#menu > ul > li:nth-last-child(-n+4) {
+  display: none;
+}
+#menu > ul > li > a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+#menu > ul > li > a > img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+#menu > ul > li > a > span {
+  font-size: 10px;
+}
+#recommend > .recommend-title > a {
+  display: block;
+  padding-left: 10px;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background: #ff841d url(http://www.zuyushop.com/wap/images/more.png) no-repeat right 10px center / 20px 20px;
+  color: #fff;
+  font-weight: 500;
+}
+#recommend > .recommend-list > li > a {
+  position: relative;
+  display: block;
+  padding: 10px;
+  min-height: 120px;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #fff;
+  padding-left: 120px;
+  font-size: 14px;
+}
+#recommend > .recommend-list > li > a > img {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 100px;
+  height: 100px;
+}
+#recommend > .recommend-list > li > a > h4 {
+  font-weight: 400;
+}
+#recommend > .recommend-list > li > a > h4 > i {
+  color: #ff841d;
+  margin-left: 10px;
+}
+#recommend > .recommend-list > li > a > div {
+  margin-top: 30px;
+  left: 120px;
+  font-size: 10px;
+  color: #a1a1a1;
+}
+#recommend > .recommend-more > a {
+  display: block;
+  width: 95%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 10px auto;
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+#recommend > .recommend-more > a > span {
+  font-size: 12px;
+  margin-left: 5px;
+}
+#footer {
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#footer > div > a {
+  float: left;
+  width: 30%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+#footer > div > a:nth-child(3) {
+  border-right: none;
+  width: 40%;
+}
+#footer > div > a > img {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#footer > p {
+  padding-top: 10px;
+}
+.back {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+}
+.back a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.back a > img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-top: 10px;
+}

@@ -1,0 +1,118 @@
+@import 'vars';
+@import 'mix';
+#header {
+  .header;
+}
+
+#search-bar {
+  .search;
+}
+
+// 菜单栏开始
+#menu {
+  >ul {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    >li {
+      float: left;
+      width: 25%;
+      &:nth-last-child(-n+4) {
+        display: none;
+      }
+      >a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        >img {
+          display: block;
+          margin: 0 auto;
+          width: 80%;
+        }
+        >span {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+// 菜单栏结束
+// 推荐开始
+#recommend {
+  >.recommend-title {
+    >a {
+      display: block;
+      padding-left: 10px;
+      width: 100%;
+      height: 30px;
+      line-height: 30px;
+      background: @base-color url(http://www.zuyushop.com/wap/images/more.png) no-repeat right 10px center/20px 20px;
+      color: #fff;
+      font-weight: 500;
+    }
+  }
+  >.recommend-list {
+    >li {
+      >a {
+        position: relative;
+        display: block;
+        padding: 10px;
+        min-height: 120px;
+        border-bottom: 1px solid #e0e0e0;
+        background-color: #fff;
+        padding-left: 120px;
+        font-size: 14px;
+        >img {
+          position: absolute;
+          left: 10px;
+          top: 10px;
+          width: 100px;
+          height: 100px;
+        }
+        >h4 {
+          font-weight: 400;
+          >i {
+            color: @base-color;
+            margin-left: 10px;
+          }
+        }
+        >div {
+          margin-top: 30px;
+          left: 120px;
+          font-size: 10px;
+          color: #a1a1a1;
+        }
+      }
+    }
+  }
+  >.recommend-more {
+    >a {
+      display: block;
+      width: 95%;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      margin: 10px auto;
+      background-color: #fbfbfb;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      >span {
+        font-size: 12px;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+// 推荐结束
+// 底部开始
+#footer {
+  .footer;
+}
+
+.back{
+  .toTop;
+}
+
+// 底部结束

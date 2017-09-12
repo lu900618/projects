@@ -1,0 +1,28 @@
+    .declaration-order {
+      /*positioning*/
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      /* Box-model */
+      display: block;
+      float: right;
+      width: 100px;
+      height: 100px;
+      /* Typography */
+      font: normal 20px sans-serif;
+      line-height: 1.5;
+      color: #333;
+      text-align: center;
+      /* Visual */
+      background-color: #f5f5f5;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      /* Misc */
+      opacity: 1;
+    }
+
+
+    
+
+

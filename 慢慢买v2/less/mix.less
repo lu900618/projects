@@ -1,0 +1,112 @@
+@import 'vars';
+// 版心 document 超长不显示纵向滚动条
+// .w {
+//   overflow-y: hidden;
+//   &::-webkit-scrollbar {
+//     display: none;
+//   }
+// }
+// 顶部 header
+.header() {
+  position: relative;
+  height: 50px;
+  background-color: #ff841d;
+  >a:nth-child(1) {
+    position: absolute;
+    left: 10px;
+    top: 12.5px;
+    img {
+      height: 25px;
+    }
+  }
+  >a:last-child {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    img {
+      height: 34px;
+    }
+  }
+}
+
+// 搜索栏
+.search {
+  position: relative;
+  padding: 0 80px 0 10px;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  >input {
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    &:first-child {
+      margin-top: 10px;
+      padding-left: 10px;
+      width: 100%;
+      background-color: #f1f1f1;
+    }
+    &:last-child {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      padding: 0 15px;
+      background-color: @base-color;
+      color: #fff;
+    }
+  }
+}
+
+// 底部
+.footer {
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+  >div>a {
+    float: left;
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-left: none;
+    &:nth-child(3) {
+      border-right: none;
+      width: 40%;
+    }
+    >img {
+      width: 15px;
+      height: 15px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  >p {
+    padding-top: 10px;
+  }
+}
+
+
+// 右下角回到顶部
+.toTop() {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #fff;
+    >img {
+      width: 30px;
+      height: 30px;
+      vertical-align: middle;
+      margin-top: 10px;
+    }
+  }
+}
