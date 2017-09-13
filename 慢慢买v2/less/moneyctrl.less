@@ -1,0 +1,102 @@
+@import 'vars';
+@import 'mix';
+#header {
+  .header-lt;
+}
+
+#search-bar {
+  .search;
+}
+
+// 底部开始
+#footer {
+  .footer;
+}
+
+.back {
+  .toTop;
+}
+
+#content {
+  >ul {
+    >li {
+      >a {
+        position: relative;
+        display: block;
+        padding: 10px;
+        min-height: 120px;
+        border-bottom: 1px solid #e0e0e0;
+        background-color: #fff;
+        padding-left: 120px;
+        font-size: 14px;
+        >img {
+          position: absolute;
+          left: 10px;
+          top: 10px;
+          width: 100px;
+          height: 100px;
+        }
+        >h4 {
+          font-weight: 400;
+          >i {
+            color: @base-color;
+            margin-left: 10px;
+          }
+        }
+        >div {
+          margin-top: 30px;
+          left: 120px;
+          font-size: 10px;
+          color: #a1a1a1;
+        }
+      }
+    }
+  }
+  >.page {
+    word-spacing: -5px;
+    padding: 20px 0;
+    >div {
+      // display: inline-block;
+      float: left;
+      width: 33.33333333%;
+      height: 30px;
+      >button {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        height: 30px;
+        line-height: 30px;
+      }
+      &.sel {
+        position: relative;
+        >ul {
+          position: relative;
+          display: block;
+          margin: 0 auto;
+          width: 80%;
+          height: 30px;
+          line-height: 30px;
+          border: 1px solid #ccc;
+          >li {
+            position: absolute;
+            display: none;
+            // display: block;
+            width: 100%;
+            height: 100%;
+            background: #f2f2f2;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+          }
+        }
+        >img {
+          position: absolute;
+          right: 10px;
+          top: 50%;
+          width: 20px;
+          height: 20px;
+          margin-top: -10px;
+        }
+      }
+    }
+  }
+}

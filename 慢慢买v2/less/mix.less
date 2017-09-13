@@ -10,7 +10,7 @@
 .header() {
   position: relative;
   height: 50px;
-  background-color: #ff841d;
+  background-color: @base-color;
   >a:nth-child(1) {
     position: absolute;
     left: 10px;
@@ -29,8 +29,36 @@
   }
 }
 
+// 首页 橙色 <
+.header-lt() {
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  background-color: @base-color;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  >h1 {
+  }
+  >a:nth-child(1) {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    color: #fff;
+  }
+  >a:last-child {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    img {
+      height: 34px;
+    }
+  }
+}
+
 // 搜索栏
-.search {
+.search() {
   position: relative;
   padding: 0 80px 0 10px;
   height: 50px;
@@ -61,7 +89,7 @@
 }
 
 // 底部
-.footer {
+.footer() {
   font-size: 12px;
   text-align: center;
   padding-bottom: 10px;
@@ -87,7 +115,6 @@
     padding-top: 10px;
   }
 }
-
 
 // 右下角回到顶部
 .toTop() {

@@ -1,0 +1,174 @@
+#header {
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  background-color: #ff841d;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+#header > a:nth-child(1) {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  color: #fff;
+}
+#header > a:last-child {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+#header > a:last-child img {
+  height: 34px;
+}
+#search-bar {
+  position: relative;
+  padding: 0 80px 0 10px;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+#search-bar > input {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+#search-bar > input:first-child {
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+#search-bar > input:last-child {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 0 15px;
+  background-color: #ff841d;
+  color: #fff;
+}
+#footer {
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#footer > div > a {
+  float: left;
+  width: 30%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+#footer > div > a:nth-child(3) {
+  border-right: none;
+  width: 40%;
+}
+#footer > div > a > img {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#footer > p {
+  padding-top: 10px;
+}
+.back {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+}
+.back a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.back a > img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+#content > ul > li > a {
+  position: relative;
+  display: block;
+  padding: 10px;
+  min-height: 120px;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #fff;
+  padding-left: 120px;
+  font-size: 14px;
+}
+#content > ul > li > a > img {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 100px;
+  height: 100px;
+}
+#content > ul > li > a > h4 {
+  font-weight: 400;
+}
+#content > ul > li > a > h4 > i {
+  color: #ff841d;
+  margin-left: 10px;
+}
+#content > ul > li > a > div {
+  margin-top: 30px;
+  left: 120px;
+  font-size: 10px;
+  color: #a1a1a1;
+}
+#content > .page {
+  word-spacing: -5px;
+  padding: 20px 0;
+}
+#content > .page > div {
+  float: left;
+  width: 33.33333333%;
+  height: 30px;
+}
+#content > .page > div > button {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  height: 30px;
+  line-height: 30px;
+}
+#content > .page > div.sel {
+  position: relative;
+}
+#content > .page > div.sel > ul {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+}
+#content > .page > div.sel > ul > li {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+#content > .page > div.sel > img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+}
